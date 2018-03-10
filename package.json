@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aliasmnidhinpeter/AWSLambda-/issues"
   },
-  "homepage": "https://github.com/aliasmnidhinpeter/AWSLambda-#readme"
+  "homepage": "https://github.com/aliasmnidhinpeter/AWSLambda-#readme",
+  "dependencies": {
+    "mocha": "^5.0.4"
+  }
 }
