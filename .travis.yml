@@ -1,0 +1,10 @@
+deploy:
+  provider: lambda
+  function_name: TestFun
+  region: us-east-1
+  role: arn:aws:iam::524540752754:role/service-role/aswin1
+  runtime: nodejs6.10
+  handler_name: handler
+  access_key_id: AKIAJ3BMG3QUUJKNYBBA
+  secret_access_key:
+    secure: BRVqxJ04IWV+JNidV9rJphOABQvepI9vYDFPgg7AzKkCqXZWJo1629ZWoKgU4K1zrZ2tVBnU29InFk/ytFLHCkPH08WMjQfG6gsoASl5CyFWcjSMUGvOutLksYkK9AlB/MW4jDwJlDjgFfQoyjQa1zEnoaNtT8VL2A3pfEGgADYyZVnDVGC9cf8phzEPaba8CpP5UHKDXaIvugaZCcOXOY8gM42ADdjrP4aDWfIVdSWt2UBhGbENsPTJrp6LKhMDkrs7FAVc9+mh4ygKedEbPEK8aNRXVn9K23TqOlrdzxVe1v3fqcvK9cE2oNFoOSXXGbVTpU9XSJStXwktnAGHSwMFtjq6EOJz7CZ5M7yERRpYLAHAosz346Jh533sGl+INx61NEsReveNWz3WCFRM7k+wUghjwvJaFE0eHGNMsUl/N8hmBqIyqdn8dOxfzP5fZ2K1xzS/wBwlGINq6TM8cqFYO8IRe95Wy0mDEVF+YvjFmxaFSuYTDcDFZ7BGKF9bD+fbqfnf2Hmvvg3UicC6gC0vUFnSFbFU0/Hfh8ZKI8LnNO+BFXqKRW2L3Nm0OzspiSfJ8KYRBaVB2SOzLzxP4+kd+0VbU8FQRPQG+XUe8TWxtSyyQPS/9pJeN9MqVaKjTvOQmsJ1ka798m0K55WyuU6kU5P2cAge35XVjwXlkUA=
